@@ -111,7 +111,7 @@ ${c.bold('nexe <entry-file> [options]')}
   -b   --build                      -- build from sourcesdfsdf sdfsdsdfsd
   -p   --python                     -- python2 (as python) executable path
   -f   --flag                       -- *v8 flags to include during compilation
-  -c   --configure                  -- *arguments to the configure step
+  -c   --configure                  -- *arguments to the configure stepsfsdf
   -m   --make                       -- *arguments to the make/build step
        --patch                      -- module with middleware default export for adding a build patch
        --no-mangle                  -- used when generating base binaries, or when patching _third_party_main manually
