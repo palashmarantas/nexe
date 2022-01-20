@@ -83,7 +83,7 @@ function isDirectoryAsync(path: string) {
 }
 /**
  * @param version See if this version is greather than the second one sdfsdf
- * @param operand Version to compare against sfsdf
+ * @param operand Version to compare against sfsdf sdfsdf
  */
 function semverGt(version: string, operand: string) {
   const [cMajor, cMinor, cPatch] = version.split('.').map(Number)
