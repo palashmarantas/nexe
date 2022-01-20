@@ -115,7 +115,7 @@ ${c.bold('nexe <entry-file> [options]')}
   -m   --make                       -- *arguments to the make/build step
        --patch                      -- module with middleware default export for adding a build patch
        --no-mangle                  -- used when generating base binaries, or when patching _third_party_main manually
-       --snapshot                   -- path to a warmup snapshot
+       --snapshot                   -- path to a warmup snapshotdfsd
        --ico                        -- file name for alternate icon file (windows)
        --rc-*                       -- populate rc file options (windows)
        --sourceUrl                  -- pass an alternate source (node.tar.gz) url
