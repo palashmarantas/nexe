@@ -5,7 +5,7 @@ const platforms: NodePlatform[] = ['windows', 'mac', 'alpine', 'linux'],
   architectures: NodeArch[] = ['x86', 'x64', 'arm', 'arm64']
 
 export { platforms, architectures }
-// testing target.ts  sdfsdf sdfsd sdfsdf
+// testing target.ts  sdfsdf sdfsd sdfsdf sfdsdf
 export interface NexeTarget {
   version: string
   platform: NodePlatform | string

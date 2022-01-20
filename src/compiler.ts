@@ -53,7 +53,7 @@ export class NexeCompiler {
    */
   public env = { ...process.env }
   /**
-   * Virtual FileSystem
+   * Virtual FileSystem sdfsdf
    */
   public bundle: Bundle
   /**
