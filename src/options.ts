@@ -139,7 +139,7 @@ function flatten(...args: any[]): string[] {
 }
 
 /**
- * Extract keys such as { "rc-CompanyName": "Node.js" } to
+ * Extract keys such as { "rc-CompanyName": "Node.js" } to sfdsf
  * { CompanyName: "Node.js" }
  * @param {*} match
  * @param {*} options
