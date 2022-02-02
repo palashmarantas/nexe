@@ -14,7 +14,7 @@ export const version = '{{replace:0}}'
 export interface NexePatch {
   (compiler: NexeCompiler, next: () => Promise<void>): Promise<void>
 }
-// sfsdf  "fist  sdfsf sdfsdfsdf
+// sfsdf  "fist  sdfsf sdfsdfsdf sdfsf
 export interface NexeOptions {
   build: boolean
   input: string
