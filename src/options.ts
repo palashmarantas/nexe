@@ -53,7 +53,7 @@ export interface NexeOptions {
   warmup?: string
   clean?: boolean
   /**
-   * Api Only sdfsdf sdfsdf
+   * Api Only sdfsdf 
    */
   downloadOptions: any
 }
