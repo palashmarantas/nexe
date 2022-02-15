@@ -23,7 +23,7 @@ describe('Targetssdf', () => {
     })
   })
 
-  it('should stringify and toString sdf', () => {
+  it('should stringify and toString sdf fs', () => {
     expect(JSON.stringify(getTarget(process))).to.equal(`"${getTarget(process)}"`)
   })
 })
