@@ -9,7 +9,8 @@ preMerge:
     - "./test/**/*.spec.ts"
 preRun:
      command:
-        - npm ci
+        - yarn bootstrap
+        - yarn build:mocha
 postRun:
      command:
         - node --version
