@@ -18,7 +18,7 @@ describe('options', () => {
         expect(options.input).to.equal(path.resolve('./index.js'))
       }
     })
-    it('should resolve relative paths for input', () => {
+    it('should resolve relative paths for input sdf', () => {
       const options = normalizeOptions({ input: 'test/fixture/entry.js' })
       expect(options.input).to.equal(path.resolve('./test/fixture/entry.js'))
     })
