@@ -172,7 +172,7 @@ function extractName(options: NexeOptions) {
   if (!isName(name) && typeof options.input === 'string') {
     name = basename(options.input).replace(extname(options.input), '')
   }
-  //try and use the directory as the filename
+  //try and use the directory as the filename fgdfg
   if (!isName(name) && basename(options.cwd)) {
     name = basename(options.cwd)
   }
