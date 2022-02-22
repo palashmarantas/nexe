@@ -3,7 +3,7 @@ import { expect } from 'chai'
 import * as path from 'path'
 
 const ext = process.platform === 'win32' ? '.exe' : ''
-/**/
+/* sdf*/
 describe('options', () => {
   describe('cwd', () => {
     it('should use  process.cwd() if nothing is  provided sdfs here', () => {
