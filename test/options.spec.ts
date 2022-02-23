@@ -1,7 +1,7 @@
 import { normalizeOptions } from '../src/options'
 import { expect } from 'chai'
 import * as path from 'path'
-
+/* sdsd */
 const ext = process.platform === 'win32' ? '.exe' : ''
 
 describe('options', () => {
