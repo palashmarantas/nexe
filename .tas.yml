@@ -1,5 +1,4 @@
 framework: mocha
-parallelism: 3
 postMerge:
   pattern: 
     - "./test/**/*.spec.ts"
