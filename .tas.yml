@@ -1,4 +1,7 @@
 framework: mocha
+blocklist:
+ - "test/options.spec.ts##options##cwd##should use  process.cwd() if nothing is  provided sdfs here##"
+ - "test/options.spec.ts##options##cwd##should use the main2 module in a package directory (if not in a TTY)##"
 postMerge:
   pattern: 
     - "./test/**/*.spec.ts"
