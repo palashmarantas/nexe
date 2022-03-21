@@ -1,7 +1,6 @@
 framework: mocha
 blocklist:
- - "test/options.spec.ts##options"
- - "test/options.spec.ts##options##cwd##should use the main2 module in a package directory (if not in a TTY)##"
+ - "test/options.spec.ts##options##cwd"
 postMerge:
   pattern: 
     - "./test/**/*.spec.ts"
