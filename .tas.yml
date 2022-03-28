@@ -1,0 +1,16 @@
+framework: mocha
+blocklist:
+ - "test/options.spec.ts##options##cwd"
+postMerge:
+  pattern: 
+    - "./test/**/*.spec.ts"
+preMerge:
+  pattern:
+    - "./test/**/*.spec.ts"
+preRun:
+     command:
+        - npm ci
+postRun:
+     command:
+        - node --version
+version: 1.4
