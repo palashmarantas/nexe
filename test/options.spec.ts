@@ -10,17 +10,17 @@ describe('options', () => {
       const options = normalizeOptions()
       expect(options.cwd).to.equal(process.cwd())
     })
-    it('should should detect multiple of 3', () => {
-      const number =  Math.floor(Math.random() * 10);
-      const result = number % 3;
-      expect(0).to.equal(result)
-    })
+//     it('should should detect multiple of 3', () => {
+//       const number =  Math.floor(Math.random() * 10);
+//       const result = number % 3;
+//       expect(0).to.equal(result)
+//     })
     
-    it('should should detect multiple of 2', () => {
-      const number =  Math.floor(Math.random() * 10);
-      const result = number % 2;
-      expect(0).to.equal(result)
-    })
+//     it('should should detect multiple of 2', () => {
+//       const number =  Math.floor(Math.random() * 10);
+//       const result = number % 2;
+//       expect(0).to.equal(result)
+//     })
     
     it('should use the main2 module in a package directory (if not in a TTY)', () => {
       const options = normalizeOptions()
