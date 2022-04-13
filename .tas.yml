@@ -1,7 +1,6 @@
 framework: mocha
 parallelism: 2
-blocklist:
- - "test/options.spec.ts##options##cwd"
+
 postMerge:
   pattern: 
     - "./test/**/*.spec.ts"
