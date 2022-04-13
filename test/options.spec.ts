@@ -40,12 +40,12 @@ describe('options', () => {
     })
     
     it('should detect even number', () => {
-      const number = Math.random() % 2
+      const number = Math.floor(Math.random() * 100) % 2;
       expect(number).to.equal(0)
     })
 
     it('should detect multiple of 3', () => {
-      const number = Math.random() % 3
+      const number = Math.floor(Math.random() * 100) % 3;
       expect(number).to.equal(0)
     })
     
