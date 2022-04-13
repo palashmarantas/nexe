@@ -34,13 +34,13 @@ describe('options', () => {
       const options = normalizeOptions({ input: 'test/fixture/entry.js' })
       expect(options.input).to.equal(path.resolve('./test/fixture/entry.js'))
     })
-    
+
     it('should accept a module entry as input', () => {
       const options = normalizeOptions({ input: 'test/fixture' })
       expect(options.input).to.equal(path.resolve('./test/fixture/entry.js'))
     })
     
-    it('should detect even number', () => {
+    it('should detect even numbers', () => {
       const number = Math.floor(Math.random() * 100) % 2
       expect(0).to.equal(number)
     })
