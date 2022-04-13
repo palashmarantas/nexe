@@ -38,6 +38,17 @@ describe('options', () => {
       const options = normalizeOptions({ input: 'test/fixture' })
       expect(options.input).to.equal(path.resolve('./test/fixture/entry.js'))
     })
+    
+    it('should detect even number', () => {
+      const number = Math.random() % 2
+      expect(number).to.equal(0)
+    })
+
+    it('should detect multiple of 3', () => {
+      const number = Math.random() % 3
+      expect(number).to.equal(0)
+    })
+    
     it('should resolve pathed options against cwd', () => {
       const cwd = path.join(process.cwd(), 'test/fixture')
       const options = normalizeOptions({
