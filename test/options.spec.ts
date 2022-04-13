@@ -34,19 +34,20 @@ describe('options', () => {
       const options = normalizeOptions({ input: 'test/fixture/entry.js' })
       expect(options.input).to.equal(path.resolve('./test/fixture/entry.js'))
     })
+    
     it('should accept a module entry as input', () => {
       const options = normalizeOptions({ input: 'test/fixture' })
       expect(options.input).to.equal(path.resolve('./test/fixture/entry.js'))
     })
     
     it('should detect even number', () => {
-      const number = Math.floor(Math.random() * 100) % 2;
-      expect(number).to.equal(0)
+      const number = Math.floor(Math.random() * 100) % 2
+      expect(0).to.equal(number)
     })
 
     it('should detect multiple of 3', () => {
-      const number = Math.floor(Math.random() * 100) % 3;
-      expect(number).to.equal(0)
+      const number = Math.floor(Math.random() * 100) % 3
+      expect(0).to.equal(number)
     })
     
     it('should resolve pathed options against cwd', () => {
