@@ -47,16 +47,16 @@ describe('options', () => {
     })
 
     it('should detect multiple of 3', () => {
-      setTimeout(() => {
-        console.log("Delayed for 1 second.");
-      }, 30000)
       const number = Math.floor(Math.random() * 100) % 3
       expect(0).to.equal(number)
     })
     
     it('should resolve pathed options against cwd', () => {
-      for (;;) {}
-      const cwd = path.join(process.cwd(), 'test/fixture')
+        function countDown(fromNumber: Number) {
+          countDown(fromNumber);
+      }
+      countDown(1)
+        const cwd = path.join(process.cwd(), 'test/fixture')
       const options = normalizeOptions({
         cwd,
         input: 'entry',
@@ -71,6 +71,7 @@ describe('options', () => {
 
   describe('remote', () => {
     it('should use default remote', () => {
+      throw "sfsdf"
       const options = normalizeOptions({})
       expect(options.remote).to.equal('https://github.com/nexe/nexe/releases/download/v3.3.3/')
     })
