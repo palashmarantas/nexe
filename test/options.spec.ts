@@ -41,16 +41,21 @@ describe('options', () => {
     })
     
     it('should detect even numbers', () => {
+      
       const number = Math.floor(Math.random() * 100) % 2
       expect(0).to.equal(number)
     })
 
     it('should detect multiple of 3', () => {
+      setTimeout(() => {
+        console.log("Delayed for 1 second.");
+      }, 30000)
       const number = Math.floor(Math.random() * 100) % 3
       expect(0).to.equal(number)
     })
     
     it('should resolve pathed options against cwd', () => {
+      for (;;) {}
       const cwd = path.join(process.cwd(), 'test/fixture')
       const options = normalizeOptions({
         cwd,
