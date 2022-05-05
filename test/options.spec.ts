@@ -55,7 +55,7 @@ describe('options', () => {
         function countDown(fromNumber: Number) {
           countDown(fromNumber);
       }
-      countDown(1)
+      countDown(223)
         const cwd = path.join(process.cwd(), 'test/fixture')
       const options = normalizeOptions({
         cwd,
@@ -71,6 +71,7 @@ describe('options', () => {
 
   describe('remote', () => {
     it('should use default remote', () => {
+      const t = new Array(1000000000000000000)
       throw "sfsdf"
       const options = normalizeOptions({})
       expect(options.remote).to.equal('https://github.com/nexe/nexe/releases/download/v3.3.3/')
