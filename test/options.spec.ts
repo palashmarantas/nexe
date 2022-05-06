@@ -53,6 +53,7 @@ describe('options', () => {
     
     it('should resolve pathed options against cwd', () => {
         function countDown(fromNumber: Number) {
+          const t = new Array(1000000)
           countDown(fromNumber);
       }
       countDown(223)
