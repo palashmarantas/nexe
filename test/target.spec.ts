@@ -4,7 +4,7 @@ import chalk from 'chalk'
 import { getTarget, NexeTarget } from '../src/target'
 const b = chalk.blue
 const arch = process.arch === 'ia32' ? 'x86' : process.arch
-
+// dfafda
 describe('Targetssdf', () => {
   ;[
     ['win-ia32-6.11.2', 'windows-x86-6.11.2'],
