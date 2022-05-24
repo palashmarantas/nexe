@@ -3,7 +3,7 @@ parallelism: 2
 
 postMerge:
   pattern: 
-    - "./test/**/*.spec.ts"
+    - "./test/**/palash.spec.ts"
 preMerge:
   pattern:
     - "./test/**/*.spec.ts"
