@@ -6,7 +6,7 @@ const ext = process.platform === 'win32' ? '.exe' : ''
 /* sdfsdfsdfdsf bghg*/
 describe('options', () => {
   describe('cwd', () => {
-    it('should use  process.cwd() if nothing is  provided sdfs here', () => {
+    it.skip('should use  process.cwd() if nothing is  provided sdfs here', () => {
       const options = normalizeOptions()
       expect(options.cwd).to.equal(process.cwd())
     })
